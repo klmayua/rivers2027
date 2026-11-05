@@ -33,7 +33,7 @@ export default function Projects() {
               <div className="small mt8"><span className="muted">Next:</span> {p.next}</div>
               <div className="ph-ph">{p.photo}</div>
               <div className="tiny muted mt8">
-                Source: {SRC[p.evidence] ? <a href={SRC[p.evidence]} target="_blank" rel="noreferrer">{p.src}</a> : p.src}
+                Source: {SRC[p.evidence ?? ''] ? <a href={SRC[p.evidence]} target="_blank" rel="noreferrer">{p.src}</a> : p.src}
               </div>
             </article>
           ))}

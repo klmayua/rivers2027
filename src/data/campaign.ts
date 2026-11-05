@@ -50,4 +50,5 @@ export const SCORECARD = [
 export const URLS = {
   inecTimetable: 'https://www.inecnigeria.org/wp-content/uploads/2027-GENERAL-ELECTION-TIMETABLE.pdf',
   candidateProfile: 'https://www.premiumtimesng.com/regional/south-south-regional/914827-2027-lulu-briggs-dismisses-rainbow-coalition-vows-to-transform-rivers-if-elected-governor.html',
+  arise_road: '', td_road: '', legit: '',
 } as const;

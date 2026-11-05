@@ -4,7 +4,7 @@ import { useMemo, useState } from 'react';
 import { Card, Chip, PageHead } from '@/components/ui';
 import { EVIDENCE, WHY_DIGITAL } from '@/data/evidence';
 
-const LABEL = { opened: 'Source opened', reported: 'Reported', verify: 'To verify', campaign: 'Campaign material' } as const;
+const LABEL: Record<string, string> = { opened: 'Source opened', reported: 'Reported', verify: 'To verify', campaign: 'Campaign material', official: 'Official source', 'source-data': 'Supplied source data', unavailable: 'Unavailable' } as const;
 const FILTERS = ['all', 'opened', 'reported', 'verify', 'campaign'] as const;
 
 export default function Evidence() {

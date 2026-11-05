@@ -12,6 +12,6 @@ export const WEEK_BY_SLUG: Record<string, Week> = Object.fromEntries(WEEKS.map((
 export const PAPERS: Array<{ day: string; paper: string; type: string; body: string }> = [];
 export const ONE_PUSH: Array<{ t: string; head: string; body: string }> = [];
 export const WEEK_RHYTHM: Array<{ day: string; what: string }> = [];
-export type Release = { id: string; week: number; date: string; headline: string; channel: string; status: string; hasDraft: boolean };
+export type Release = { id: string; week: number; date: string; headline: string; channel: string; status: string; hasDraft: boolean; paper?: string; type?: string };
 export const RELEASES: Release[] = [];
 export const DRAFTS: Record<string, { dateline: string; paras: string[]; proposedQuote?: string }> = {};
