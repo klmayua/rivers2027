@@ -16,7 +16,7 @@ export function WardList() {
     <div className="col gap14">{LGA_LIST.map((lga) => {
       const rows = list.filter((ward) => ward.lga === lga.key);
       if (!rows.length) return null;
-      return <section key={lga.key><div className="pt">{lga.name} · {lga.wards} wards <Prov k="inec" /></div>
+      return <section key={lga.key}><div className="pt">{lga.name} · {lga.wards} wards <Prov k="inec" /></div>
         {rows.map((ward) => <Link key={ward.slug} href={'/w/' + ward.slug + '/' + week.slug} className="pcard" style={{ display: 'flex', alignItems: 'center', gap: 10, color: 'inherit', textDecoration: 'none' }}>
           <div className="sp"><div className="tt">{ward.name}</div><div className="mm">{ward.pus} polling units · registered-voter total unavailable</div></div><span style={{ color: 'var(--faint)', fontSize: 20 }}>›</span>
         </Link>)}
@@ -25,3 +25,4 @@ export function WardList() {
     <div className="note"><b>About these figures.</b> The supplied INEC-derived source contains Rivers State LGA, ward and polling-unit names. It does not include registered-voter counts.</div>
   </div>;
 }
+

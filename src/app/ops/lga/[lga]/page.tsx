@@ -1,11 +1,6 @@
 import { notFound } from 'next/navigation';
 import { LgaView } from '@/components/lga-view';
 import { LGA_LIST } from '@/data/geo';
-import { LGA_LIST } from '@/data/geo';
-import { LGA_LIST } from '@/data/geo';
-import { LGA_LIST } from '@/data/geo';
-import { LGA_LIST } from '@/data/geo';
-import { LGA_LIST } from '@/data/geo';
 
 export const dynamicParams = false;
 

@@ -4,10 +4,6 @@ import { useMemo, useState } from 'react';
 import { Card, Chip, PageHead } from '@/components/ui';
 import { EVENTS, EVENT_KIND, type EventItem } from '@/data/content';
 import { LGA_LIST } from '@/data/geo';
-import { LGA_LIST } from '@/data/geo';
-import { LGA_LIST } from '@/data/geo';
-import { LGA_LIST } from '@/data/geo';
-import { LGA_LIST } from '@/data/geo';
 import { longDate } from '@/lib/format';
 import { useClock } from '@/lib/hooks';
 
