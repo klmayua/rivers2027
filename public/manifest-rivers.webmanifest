@@ -1,0 +1,16 @@
+{
+  "name": "DLB2027 · Chief Barr. Dumo Lulu Briggs",
+  "short_name": "DLB2027",
+  "description": "The Rivers Contract, Report Card, Project Register, People's Help Desk and giving, for Rivers State.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#0a7a3d",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

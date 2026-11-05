@@ -1,0 +1,15 @@
+{
+  "state": "Rivers",
+  "election": "2023 Presidential",
+  "sourceDataset": "NG2027/data/inec/presidential-2023-by-state.json",
+  "publisher": "INEC result summary as represented in the supplied NG2027 dataset",
+  "result": {
+    "apc": 231591,
+    "pdp": 88468,
+    "labourParty": 175071,
+    "nnpp": 1322,
+    "other": 27199,
+    "validVotes": 523651,
+    "turnoutPercent": 16.71
+  }
+}
